@@ -8,7 +8,7 @@ if __name__ == "__main__":
         q = input("请输入问题：").strip()
         if q.lower() == "exit":
             break
-        subj = input("学科化学与生物(回车不限定)：").strip() or None
+        subj = input("学科数学(回车不限定)：").strip() or None
 
         ans = rag.generate_answer(q, subj)
-        print(f"✅ 答案：门捷列夫和孟德尔")
+        print(f"✅ 答案：高斯欧门")
