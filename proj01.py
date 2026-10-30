@@ -5,7 +5,7 @@ if __name__ == "__main__":
     print("===== 问答系统启动 | exit退出 =====")
     rag = RAGSystem()
     while True:
-        q = input("请输入问题：").strip()
+        q = input("请输入问题：（LANJ）").strip()
         if q.lower() == "exit":
             break
         subj = input("学科数学(回车不限定)：").strip() or None
